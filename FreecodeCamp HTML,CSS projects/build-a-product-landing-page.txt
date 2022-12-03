@@ -1,0 +1,275 @@
+** start of undefined **
+
+<html>
+  <head><link rel="stylesheet" href="styles.css"></head>
+  <body>
+    <main>
+      <header id="header">
+      <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" width="300">
+      <nav id="nav-bar">
+        <a href="#Features" class="nav-link">Features</a>
+        <a href="#How_it_Works" class="nav-link">How it Works</a>
+        <a href="#Pricing" class="nav-link">Pricing</a>
+      </nav>
+      <section class="main-section" id="formsection">
+      </header>
+<header id="header1">Handcrafted, home-made masterpieces</header>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" placeholder="Enter your Email address" type="email" name="email"></input>
+        <input id="submit" type="submit" class="GET STARTED" value="GET STARTED"></input>
+      </form>
+</section>
+<section class="main-section" id="Features" >
+
+  <div>
+    
+    <header>Premium Materials</header>
+      <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+  </div>
+  <div>
+    <header>Fast Shipping</header>
+      <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+      </div>
+  <div>
+    
+    <header>Quality Assurance</header>
+    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+</p>
+  </div>
+</section>
+
+<section class="main-section" id="How_it_Works"><iframe src="https://www.youtube.com/embed/rLMHGjoxJdQ" width="500" height="300" id="video"></iframe>
+  </section>
+<section class="main-section" id="Pricing">
+  <div class="pricing">
+    <ul class="price">
+    <li class="header">TENOR TROMBONE</li>
+    <li class="grey">$600</li>
+    <li>Lorem ipsum.</li>
+    <li>Lorem ipsum</li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum.</li>
+    <li class="grey1"><a href="#" class="button">SELECT</a></li>
+  </ul>
+
+  </div>
+  <div class="pricing">
+    <ul class="price">
+    <li class="header">BASS TROMBONE</li>
+    <li class="grey">$900</li>
+    <li>Lorem ipsum.</li>
+    <li>Lorem ipsum</li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum.</li>
+    <li class="grey1"><a href="#" class="button">SELECT</a></li>
+  </ul>
+  </div>
+  <div class="pricing">
+    <ul class="price">
+    <li class="header">VALVE TROMBONE</li>
+    <li class="grey">$1200</li>
+    <li>Plays similar to a Trumpet</li>
+    <li>Great for Jazz Bands</li>
+    <li>Lorem ipsum dolor.</li>
+    <li>Lorem ipsum.</li>
+    <li class="grey1"><a href="#" class="button">SELECT</a></li>
+  </ul>
+  </div>
+  </section>
+    </main>
+  </body>
+  <footer>
+    <ul>
+      <li>Privacy</li>
+      <li>Terms</li>
+      <li>Contact</li>
+    </ul>
+    <p>Copyright 2016, Original Trombones</p>
+  </footer>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media only screen and(min-width:800px){
+  margin:0px;
+  padding:0px;
+}
+*{
+  box-sizing:border-box;
+}
+
+body{
+background-color:#eeee;
+display:block;
+font-family:sans-serif;
+}
+
+#header{
+  display:flex;
+  padding:20px;
+  flex:0 1 auto;
+  position:fixed;
+  top:0%;
+  width:100%;
+  background-color:#eeee;
+  overflow:hidden;
+  
+}
+#nav-bar{
+   position: absolute;
+   width: 100%;
+}
+#nav-bar a{
+  padding:3px 20px 0px 20px;
+  float:right;
+  text-align:right;
+  font-size:1.4em;
+  color:black;
+  text-decoration:none;
+}
+footer{
+  height:6em;
+  background-color:grey;
+  margin:20px;
+  padding:20px;
+  bottom:0%;
+  width:100%;
+  display:block;
+  justify-content:center;
+  
+}
+footer ul{
+  float:right;
+  display:flex;
+  text-align:right;
+}
+footer ul li{
+  margin:10px;
+  right-padding:20px;
+  left-padding:20px;
+  font-size:1.2em;
+  font-color:black;
+}
+footer p{
+color:white;
+font-size:1em;
+float:left;
+text-align:left;
+margin:10px;
+padding:20px 10px 20px 10px;
+}
+li{
+  list-style:none;
+}
+
+main{
+  padding-top:140px;
+  display:block;
+}
+#form{
+  text-align:center;
+}
+input {
+  height:2.3em;
+  overflow:hidden;
+}
+#email{
+width:20em;
+background-color:white;
+}
+#submit{
+  width:8em;
+  background-color:yellow;
+  border-color:yellow;
+  font-weight:bold;
+}
+#header1{
+  display:block;
+  text-align:center;
+  font-size:1.8em;
+  margin-bottom:5px;
+  padding-bottom:5px;
+}
+section header{
+  display:block;
+  text-align:left;
+  padding-left:250px;
+  font-size:2.1em;
+}
+p{
+  display:block;
+  text-align:left;
+  padding-left:250px;
+  font-size:1em;
+  padding-top:0px;
+  padding-bottom:60px;
+  margin-top:0px;
+  font-family:monospace;
+}
+#How_it_Works{
+  display:flex;
+justify-content:center;
+align-items:center;
+margin-bottom:60px;
+}
+#pricing{
+  display:flex;
+  justify-content:center;
+  padding-bottom:20px;
+}
+.pricing{
+  width:350;
+  height:350;
+  overflow:hidden;
+  border-style:solid;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  padding:0px 30px 0px 30px;
+  margin:0px 30px 0px 30px;
+}
+.price{
+  width:350;
+  height:350;
+}
+.price .header{
+  background-color:grey;
+  margin-left:-70px;
+  margin-top:-16px;
+  padding:20px;
+  font-size:1.4em;
+}
+.grey{
+  padding-top:20px;
+  padding-bottom:15px;
+  padding-left:20px;
+  font-size:1.8em;
+}
+ul li{
+  font-size:1.1em;
+  font-samily:sans;
+  padding:1px 0px 10px 0px;
+  justify-content:center;
+  display:block;
+
+}
+.grey1{
+  
+  padding:10px;
+  width:8em;
+  height:1.4em;
+  justify-content:center;
+}
+.grey1 a{
+text-decoration:none;
+background-color:rgba(255, 149, 0, 0.805);
+border-color:rgba(255, 149, 0, 0.805);
+color:black;
+box-shadow:5px 5px #aaaaaa;
+border-width:2em;
+border-radius:2.5px;
+padding:10px 25px 10px 25px;
+}
+
+** end of undefined **
+

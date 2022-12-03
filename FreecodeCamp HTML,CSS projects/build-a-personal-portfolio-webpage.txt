@@ -1,0 +1,259 @@
+** start of undefined **
+
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="main-section" id="navbar-section"><nav id="navbar">
+      <a href="#welcome-section">About</a>
+      <a href="#projects">Work</a>
+      <a href="#contact-section">Contact</a>
+      </nav></section>
+    <section class="main-section" id="welcome-section">
+      <h1>Hey there, I'm Mujeeb!</h1>
+      <p>a Web Developer</p>
+    </section>
+    <section class="projects-section" id="projects">
+     
+        <h2>These are some of my projects..</h2>
+      
+      <div class="grid">
+        <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" class="project project-tile">
+          <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg">
+           <p class="project-title">
+            <span class="code">&lt;</span>
+            Tribute Page
+            <span class="code">/&gt;</span>
+          </p>
+        </a>
+<div class="grid">
+        <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" class="project project-tile">
+          <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png">
+           <p class="project-title">
+            <span class="code">&lt;</span>
+            Random Quote Machine
+            <span class="code">/&gt;</span>
+          </p>
+        </a>
+
+        <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-tile">
+          <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="project">
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            JavaScript Calculator
+            <span class="code">/&gt;</span>
+          </p>
+        </a>
+      </div>
+   
+    </section>
+    <section class="main-section" id="contact-section">
+      <h1>Let's work together...</h1>
+<p>How do you take your coffee?</p>
+<div class="social-media"  >
+  <a href="facebook.com/mujeeb">
+  <i class="fab fa-facebook-square">
+    </i>
+   FACEBOOK
+  </a>
+  <a href="instagram.com/mujeeb">
+  <i class="fab fa-instagram-square">
+    </i>
+   INSTAGRAM
+  </a>
+  <a href="linkedin.com/mujeeb">
+  <i class="fab fa-linkedin-square">
+    </i>
+   LINKEDIN
+  </a>
+  <a href="facebook.com/mujeeb" id="profile-link" target="_blank">
+  <i class="fab fa-github">
+    </i>
+   GITHUB
+  </a>
+</div>
+    </section>
+    
+  </main>
+</body>
+<footer>
+  <p class="p1">**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+  <p class="p2">© Created for freeCodeCamp </p>
+</footer>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (max-width: 75em)
+html {
+    font-size: 60%;
+}
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+#navbar{
+  top:0%;
+  width:100%;
+  height:3em;
+  text-align:right;
+  padding:15px 30px;
+  background-color:rgb(161, 36, 36);
+  font-size:1.8em;
+  font-family:monospace;
+  display:block;
+  position:fixed;
+  box-shadow:5px 3px;
+}
+nav a {
+  text-decoration:none;
+  color:white;
+  padding:0px 30px;
+  display:inline-block;
+}
+#welcome-section{
+  width:100%;
+  background-color:rgb(71, 54, 54);
+  height:700;
+  box-shadow:5px;
+}
+
+h1{
+   text-align:center;
+   font-size:3em;
+   font-family:fantasy;
+   font-weight:300;
+   color:rgb(208, 203, 203);
+}
+p{
+   text-align:center;
+   font-size:1.6em;
+   font-family:sans-serif;
+   display:block;
+   color:rgb(208, 203, 203);
+}
+#welcome-section h1{
+  padding-top:350px;
+  text-shadow: 2px 2px #0d0909;
+  display:block;
+}
+#welcome-section p{
+     padding-top:20px;
+     color:rgb(174, 58, 58);
+     display:block; 
+     font-style:italic;
+    
+}
+//#projects{
+  background-color:rgb(25, 30, 114);
+  width:100%;
+  padding-top:600px;
+}
+#contact-section{
+  width:100%;
+  background-color:rgb(71, 54, 54);
+  height:700;
+  box-shadow:5px;
+}
+#contact-section h1{
+padding-top:350px;
+  text-shadow: 2px 2px #0d0909;
+  display:block;
+}
+
+#contact-section p{
+     color:rgb(208, 203, 203);
+     display:block; 
+     font-style:italic;
+}
+footer{
+  background-color:grey;
+  padding:30px;
+  width:100%;
+  border-style:solid;
+  border-color:grey;
+  display:block;
+}
+.p1{
+  font-family:monospace;
+  font-size:1em;
+  text-align:left;
+  display:inline-block;
+}
+.p2{
+  padding-left:40px;font-family:serif;
+  font-size:1.3em;
+  text-align:right;
+  display:inline-block; 
+}
+#contact-section div{
+  padding-top:30px;
+  text-align:center;
+  display:block;
+}
+.social-media  a{
+  text-decoration:none;
+  padding:0px 10px 0px 10px;
+  font-size:1.4em;
+  font-family:arial;
+  color:white;
+  font-weight:bold;
+  text-shadow: 1.5px 1.5px grey;
+}
+.project-image{
+      height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+  
+}
+img {
+    display: block;
+    width: 100%;
+}
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+p{
+  color:black;
+  padding-top:20px;
+}
+
+.project{
+  background: rgb(251, 250, 250);
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    border-radius: 2px;
+}
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background:rgb(32, 28, 28);
+    }
+
+    h2{
+      color:white;
+      font-family:serif;
+      text-decoration:underline;
+      padding-bottom:40px;
+      font-size:2.7em;
+      font-weight:500;
+      text-shadow:2.1px 2.1px black;
+    }
+
+** end of undefined **
+

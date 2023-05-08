@@ -1,0 +1,13 @@
+.card {
+  height: 10rem;
+  width: 50rem;
+  background-color: #c4ae448e;
+  box-sizing: content-box;
+  text-align: center;
+  margin-top: 25%;
+  margin-left: 15%;
+  box-sizing: content-box;
+  justify-items: center;
+  overflow: hidden;
+  box-shadow: 12px 12px 2px 1px rgb(5, 2, 2);
+}
